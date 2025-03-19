@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Rojo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+                <a href="#" class="logo">Dragon Rojo</a>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="img/logo/menu.png" alt="menu" class="menu-icon">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#" class="menu-item">Inicio</a></li>
+                        <li><a href="#" class="menu-item">Nosotros</a></li>
+                        <li><a href="#" class="menu-item">Menu</a></li>
+                        <li><a href="#" class="menu-item">Ofertas</a></li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/logo/car.svg" id="img-carrito" alt="carrito de compra">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Oferta Semanal</span>
+                <h1>El mejor combo que puedas elegir</h1>
+                <p>
+                    Disfruta del sabor único de nuestro Combo Especial Teriyaki, que incluye: 
+                    Pollo Teriyaki jugoso y perfectamente glaseado, 
+                    2 porciones de arroz frito con gambas de sabor exquisito junto con 
+                    Sopa Wan-Tun tradicional y reconfortante, y una porcion extra de 
+                    Cerdo Agridulce! una explosión de sabores entre lo ácido y dulce.
+                    Precio Promocional: ¡15$! Disponible por tiempo limitado.
+
+                    ¡No te pierdas esta deliciosa oportunidad!
+                </p>
+                <a href="#" class="btn-1">Ver más</a>
+            </div>
+            <div class="header-img">
+                <img src="img/comida china/comida china-2.jpg" alt="combo">
+            </div>
+        </div>
+    </header>
+
+    <section class="information container">
+        <div class="information-content">
+            <div class="information-1">
+                <img src="img/especial-logo/dish.png" alt="entrega">
+                <h3>Arroz y Tallarines</h3>
+                <p>
+                    Ofrecemos una amblia variedad de arroz como tres delicias, pollo y curry, ternera,
+                    ademas de acompañantes de tallarines sean fritos con pollo, verdura, bambu y setas, gambas.
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="img/especial-logo/drink.png" alt="entrega">
+                <h3>Sopas</h3>
+                <p>
+                    Ademas de nuestra muy famosa sopa de la casa, nuestro abarca sopas agridulces, Wan-Tun, 
+                    Aleta de tiburon, Nido de Golondrinas, pollo con Champiñones y fideos, y muchas mas. 
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="img/especial-logo/turkey.png" alt="entrega">
+                <h3>Carnes</h3>
+                <p>
+                    Nuestras sopas, solo superadas por nuestras carnes, son famosas en todo el pais, delicias
+                    como el cerdo crujiente de la casa y pato estilo Sze-Chuan han marcado el paladar de nuestros comenzales. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+            <div class="images">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/menu/carne con pimenton.jpg" alt="">
+                            <h3>Carne con Pimenton</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/menu/Chicharrones de Pollo.jpg" alt="">
+                            <h3>Chicharrones de Pollo</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/menu/pato a la pekinese.jpg" alt="">
+                            <h3>Pato a la Pekinese</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/menu/rollitos primavera.jpg" alt="">
+                            <h3>Rollitos Primavera</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/menu/tallarin artesanal.jpg" alt="">
+                            <h3>Tallarines</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/menu/tallarines con chop Suey.jpg" alt="">
+                            <h3>Chop-Suey</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+    </section>
+
+    <section class="contact">
+        <form>
+            <input type="email" placeholder="Correo">
+            <input type="submit" value="Enviar" class="btn-3">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Dragon Rojo</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Dragon Rojo</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Dragon Rojo</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Dragon Rojo</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
