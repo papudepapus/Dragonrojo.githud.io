@@ -16,7 +16,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     pagination: {
         el: ".swiper-pagination",
-        clickable: true, // Permite que el usuario haga clic en los puntos para navegar
+        clickable: true, 
       },
       navigation: {
         nextEl: ".swiper-button-next",
