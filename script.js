@@ -13,5 +13,13 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 40
         }
-    }
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true, // Permite que el usuario haga clic en los puntos para navegar
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
 });
